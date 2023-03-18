@@ -1,0 +1,27 @@
+{
+  "name": "meets",
+  "version": "1.0.0",
+  "description": "My first web application: Meets is a website application that matches users to other users with the same music and/or YouTube interests. Users should be able to communicate to each other in group chats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techcian/meets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techcian/meets/issues"
+  },
+  "homepage": "https://github.com/techcian/meets#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^113.0.0",
+    "mongoose": "^7.0.2",
+    "passport": "^0.6.0",
+    "socket.io": "^4.6.1",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
